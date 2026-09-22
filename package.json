@@ -1,0 +1,17 @@
+{
+  "name": "azure-commerce-cnii",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@azure/data-tables": "^13.3.2",
+    "@azure/storage-blob": "^12.28.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
